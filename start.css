@@ -1,0 +1,84 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+.finder{
+  width:  60vw;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: right;
+  animation: FinderKaAnimation 1s ease-in 0s 1 reverse forwards;
+}
+.goal{
+  width:  70vw;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: left;
+  margin-top: 35vh;
+  animation: GoalKaAnimation 1s ease-in 0s 1 normal forwards;
+}
+
+.start-page {
+  height: 50vh;
+  display: flex;
+  flex-direction:  column;
+}
+@keyframes GoalKaAnimation{
+  from{
+    color:  #000000;
+  }
+  to{
+    background-color: #aed431;
+    transform: translateX(30vw);
+  }
+}
+@keyframes FinderKaAnimation{
+  from{
+    color:  #000000;
+    
+  }
+  to{
+    background-color: #aed431;
+    transform: translateX(80vw);
+
+  }
+}
+
+.common{
+  font-size: 50px;
+  font-weight: 900;
+  background-color: #aed431;
+  
+  
+}
+.start {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.start-btn {
+  background-color: greenyellow;
+  height: 32px;
+  width: 100px;
+  font-weight: 900;
+  border-radius: 15px;
+
+}
+
+a {
+  text-decoration: none;
+  color: #ed0707;
+
+}
+
+.start-btn:hover {
+  background-color: #eef773;
+  color: #b2e7eb;
+}

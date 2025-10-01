@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width">
+   <title>GOAL FINDER</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+   <link href="style.css" rel="stylesheet" type="text/css" />
+   <link href="question_style.css" rel="stylesheet" type="text/css" />
+    <link href="setting.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+   <header>
+      <nav id="headerid">
+         <a href="index.html"> <i class="fa-solid fa-house"> </i> </a>
+
+         <h1> GOAL FINDER </h1>
+         <nav class="setting">
+           <input type="checkbox" id="sidebar-active">
+           <label for="sidebar-active" class="open-sidebar">
+             <i class="fa-solid fa-bars"> </i>
+
+           </label>
+           <div class="links-container">
+             <label for="sidebar-active" class="close-sidebar">
+               <i class="fa-solid fa-xmark"></i>
+             </label>
+             <a href="index.html"> Home </a>
+             <a href="How-to-use.html"> How to use </a>
+             <a href="interest.html"> Get dream </a>
+             <a href="about_us.html"> About us</a>
+           </div>
+         </nav>
+
+      </nav>
+   </header>
+   <main>
+      <h1 class="question_name"> ABILITY QUESTION'S </h1>
+      <div class="question_container">
+         <div class="question" id="question1">
+
+            1. Which function is used to concatenate vectors in R?
+               
+            
+            <div class="option" data-question="question1" data-correct="false">
+               A) `concat()`
+            </div>
+            <div class="option" data-question="question1" data-correct="false">
+               B) `combine()`
+            </div>
+            <div class="option" data-question="question1" data-correct="false">
+               C) `merge()`
+            </div>
+            <div class="option" data-question="question1" data-correct="true">
+               D) `c()`
+            </div>
+         </div>
+
+         <div class="question" id="question2">
+            2. What is the result of `sqrt(-1)` in R?
+            
+
+            <div class="option" data-question="question2" data-correct="false">
+               A) `-1`
+            </div>
+            <div class="option" data-question="question2" data-correct="false">
+               B) `1`
+            </div>
+            <div class="option" data-question="question2" data-correct="false">
+               C) `Error`
+            </div>
+            <div class="option" data-question="question2" data-correct="true">
+               D) `NaN`
+            </div>
+         </div>
+
+         <div class="question" id="question3">
+            3.  Which function is used to read data from a CSV file in R?
+           
+
+            <div class="option" data-question="question3" data-correct="false">
+               A)  `open.csv()`
+            </div>
+            <div class="option" data-question="question3" data-correct="false">
+               B) `import.csv()`
+            </div>
+            <div class="option" data-question="question3" data-correct="false">
+               C)  `load.csv()`
+            </div>
+            <div class="option" data-question="question3" data-correct="true">
+               D) `read.csv()`
+            </div>
+         </div>
+
+         <div class="question" id="question4">
+            4. Which operator is used for element-wise multiplication of matrices in R?
+            
+            <div class="option" data-question="question4" data-correct="false">
+
+               A) `x`
+
+            </div>
+            <div class="option" data-question="question4" data-correct="true">
+               B) `.*`
+            </div>
+            <div class="option" data-question="question4" data-correct="false">
+
+               C) `%*%`
+            </div>
+            <div class="option" data-question="question4" data-correct="false">
+
+               D) `*`
+            </div>
+         </div>
+
+         <div class="question" id="question5">
+            5.  Which function is used to apply a function to each element of a vector in R?
+             
+            <div class="option" data-question="question5" data-correct="false">
+               A) `map()`
+
+            </div>
+            <div class="option" data-question="question5" data-correct="false">
+
+               B) `foreach()`
+
+            </div>
+            <div class="option" data-question="question5" data-correct="false">
+               C) `for_each()`
+
+            </div>
+            <div class="option" data-question="question5" data-correct="true">
+
+               D)  `apply()`
+            </div>
+         </div>
+
+         <div class="question" id="question6">
+
+            6. In R, which function is used to calculate the mean of a vector?
+           
+            <div class="option" data-question="question6" data-correct="false">
+
+               A) `calc_mean()`
+
+            </div>
+            <div class="option" data-question="question6" data-correct="false">
+               B)  `average()`
+
+
+            </div>
+            <div class="option" data-question="question6" data-correct="true">
+               C)  `mean()`
+
+            </div>
+            <div class="option" data-question="question6" data-correct="false">
+               D) `avg()`
+            </div>
+
+         </div>
+         <div class="question" id="question7">
+           7. Which of the following is NOT a valid data structure in R?
+           
+
+            <div class="option" data-question="question7" data-correct="false">
+               A) DataFrame
+            </div>
+            <div class="option" data-question="question7" data-correct="true">
+               B) Tree
+            </div>
+            <div class="option" data-question="question7" data-correct="false">
+               C) Matrix
+            </div>
+            <div class="option" data-question="question7" data-correct="false">
+               D) Vector
+            </div>
+         </div>
+
+         <div class="question" id="question8">
+            8. What does the `seq()` function do in R?
+            
+            <div class="option" data-question="question8" data-correct="true">
+               A) Returns the sequence of numbers
+            </div>
+            <div class="option" data-question="question8" data-correct="false">
+               B) Searches for elements in a vector
+            </div>
+            <div class="option" data-question="question8" data-correct="false">
+               C) Sorts elements in a vector
+            </div>
+            <div class="option" data-question="question8" data-correct="false">
+               D) Computes the standard error
+            </div>
+         </div>
+
+         <div class="question" id="question9">
+            9. How do you print "Hello, World!" in R?
+           
+            <div class="option" data-question="question9" data-correct="false">
+               A) `console.log("Hello, World!")`
+            </div>
+            <div class="option" data-question="question9" data-correct="false">
+               B) `output("Hello, World!")`
+            </div>
+            <div class="option" data-question="question9" data-correct="false">
+               C) `echo("Hello, World!")`
+            </div>
+            <div class="option" data-question="question9" data-correct="true">
+               D) `print("Hello, World!")`
+            </div>
+         </div>
+
+         <div class="question" id="question10">
+            10. What is R primarily used for?
+            
+
+            <div class="option" data-question="question10" data-correct="false">
+
+               A) Game development
+
+            </div>
+            <div class="option" data-question="question10" data-correct="false">
+               B) Artificial intelligence
+            </div>
+            <div class="option" data-question="question10" data-correct="true">
+
+               C) Statistical computing and graphics
+            </div>
+            <div class="option" data-question="question10" data-correct="false">
+
+               D) Web development
+            </div>
+         </div>
+
+         <div id="correctCount">0</div>
+
+      </div>
+
+
+   </main>
+   <footer>
+      <div id="next">
+         <button type="button" onclick="openNextPage()"> SUBMIT </button>
+
+      </div>
+   </footer>
+
+   <script src="question.js"> </script>
+   <script src="function_Question_Page.js"> </script>
+
+</body>
+
+</html> 
+ 

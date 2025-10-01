@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Check</title>
+
+    <link rel="stylesheet" href="disable.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+     <link href="setting.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+    <header>
+        <nav id="headerid">
+            <a href="index.html"> <i class="fa-solid fa-house"> </i> </a>
+
+            <h1> GOAL FINDER </h1>
+            <nav class="setting">
+                <input type="checkbox" id="sidebar-active">
+                <label for="sidebar-active" class="open-sidebar">
+                  <i class="fa-solid fa-bars"> </i>
+
+                </label>
+                <div class="links-container">
+                  <label for="sidebar-active" class="close-sidebar">
+                    <i class="fa-solid fa-xmark"></i>
+                  </label>
+                  <a href="index.html"> Home </a>
+                  <a href="How-to-use.html"> How to use </a>
+                  <a href="interest.html"> Get dream </a>
+                  <a href="about_us.html"> About us</a>
+                </div>
+              </nav>
+
+        </nav>
+    </header>
+
+    <main class="disable">
+        <div class="dis-container">
+            <h2> Do you have any disabilities? </h2>
+            <div id="btn">
+                <button class="btn-id" onclick="checkHealth(true)">Yes</button>
+                <button class="btn-id" onclick="checkHealth(false)">No</button>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div id="next">
+
+            <!--  <button> 
+        
+<a href = "disable.html"> SUBMIT </a>  </button> -->
+        </div>
+    </footer>
+    <script>
+        function checkHealth(isSick) {
+            if (isSick) {
+                window.location.href = 'disable_page.html';
+            } else {
+                window.location.href = 'interest.html';
+            }
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width">
+   <title>GOAL FINDER</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+   <link href="style.css" rel="stylesheet" type="text/css" />
+   <link href="question_style.css" rel="stylesheet" type="text/css" />
+    <link href="setting.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+   <header>
+      <nav id="headerid">
+         <a href="index.html"> <i class="fa-solid fa-house"> </i> </a>
+
+         <h1> GOAL FINDER </h1>
+         <nav class="setting">
+           <input type="checkbox" id="sidebar-active">
+           <label for="sidebar-active" class="open-sidebar">
+             <i class="fa-solid fa-bars"> </i>
+
+           </label>
+           <div class="links-container">
+             <label for="sidebar-active" class="close-sidebar">
+               <i class="fa-solid fa-xmark"></i>
+             </label>
+             <a href="index.html"> Home </a>
+             <a href="How-to-use.html"> How to use </a>
+             <a href="interest.html"> Get dream </a>
+             <a href="about_us.html"> About us</a>
+           </div>
+         </nav>
+
+      </nav>
+   </header>
+   <main>
+      <h1 class="question_name"> ABILITY QUESTION'S </h1>
+      <div class="question_container">
+         <div class="question" id="question1">
+
+            1. What is the correct way to start a session in PHP?
+               
+
+            <div class="option" data-question="question1" data-correct="false">
+               A) `init_session();`
+            </div>
+            <div class="option" data-question="question1" data-correct="false">
+               B) `open_session();`
+            </div>
+            <div class="option" data-question="question1" data-correct="false">
+               C) `start_session();`
+            </div>
+            <div class="option" data-question="question1" data-correct="true">
+               D) `session_start();`
+            </div>
+         </div>
+
+         <div class="question" id="question2">
+            2. Which function in PHP is used to delete a cookie?
+             
+            <div class="option" data-question="question2" data-correct="true">
+               A) `unset_cookie()`
+            </div>
+            <div class="option" data-question="question2" data-correct="false">
+               B) `remove_cookie()`
+            </div>
+            <div class="option" data-question="question2" data-correct="false">
+               C) `setcookie()`
+            </div>
+            <div class="option" data-question="question2" data-correct="false">
+               D) `delete_cookie()`
+            </div>
+         </div>
+
+         <div class="question" id="question3">
+            3.  Which PHP function is used to encode data in JSON format?
+             
+            <div class="option" data-question="question3" data-correct="false">
+               A) `json()`
+            </div>
+            <div class="option" data-question="question3" data-correct="false">
+               B) `json_serialize()`
+            </div>
+            <div class="option" data-question="question3" data-correct="false">
+               C)  `encode_json()`
+            </div>
+            <div class="option" data-question="question3" data-correct="true">
+               D) `json_encode()`
+            </div>
+         </div>
+
+         <div class="question" id="question4">
+            4. Which of the following statements is used to redirect to another URL in PHP?
+            
+            <div class="option" data-question="question4" data-correct="false">
+
+               A) `navigate("new_url.php");`
+
+            </div>
+            <div class="option" data-question="question4" data-correct="true">
+               B)  `header("Location: new_url.php");`
+            </div>
+            <div class="option" data-question="question4" data-correct="false">
+
+               C) `redirect("new_url.php");`
+            </div>
+            <div class="option" data-question="question4" data-correct="false">
+
+               D)  `goto new_url.php;`
+            </div>
+         </div>
+
+         <div class="question" id="question5">
+            5. How do you output text in PHP?
+           
+            <div class="option" data-question="question5" data-correct="false">
+               A) `print("Hello World");`
+               
+            </div>
+            <div class="option" data-question="question5" data-correct="false">
+
+               B) `echo "Hello World";`
+              
+            </div>
+            <div class="option" data-question="question5" data-correct="false">
+               C) `System.out.println("Hello World");`
+              
+            </div>
+            <div class="option" data-question="question5" data-correct="true">
+
+               D) Both A and B
+            </div>
+         </div>
+
+         <div class="question" id="question6">
+
+            6.  Which function in PHP is used to generate a random number?
+            
+            <div class="option" data-question="question6" data-correct="true">
+
+               A) `rand()`
+               
+            </div>
+            <div class="option" data-question="question6" data-correct="true">
+               B) `random_number()`
+              
+            </div>
+            <div class="option" data-question="question6" data-correct="false">
+               C) `random()`
+         
+            </div>
+            <div class="option" data-question="question6" data-correct="false">
+               D) `generate_random()`
+            </div>
+
+         </div>
+         <div class="question" id="question7">
+            7. Which function is used to open a file for reading in PHP?
+            
+            <div class="option" data-question="question7" data-correct="false">
+               A) `open_file()`
+               
+            </div>
+            <div class="option" data-question="question7" data-correct="false">
+               B) `file_open()`
+             
+            </div>
+            <div class="option" data-question="question7" data-correct="true">
+               C) `fopen()`
+              
+            </div>
+            <div class="option" data-question="question7" data-correct="false">
+               D) `read_file()`
+            </div>
+         </div>
+
+         <div class="question" id="question8">
+            8. Which of the following is a correct way to start a PHP script?
+        
+
+            <div class="option" data-question="question8" data-correct="false">
+               A)  `&lt;php&gt;`
+            </div>
+            <div class="option" data-question="question8" data-correct="true">
+               B) `&lt;?php&gt;`
+            </div>
+            <div class="option" data-question="question8" data-correct="false">
+               C)  `&lt;?&gt;`
+            </div>
+            <div class="option" data-question="question8" data-correct="false">
+               D) `&lt;? script ?&gt;`
+            </div>
+         </div>
+
+         <div class="question" id="question9">
+            9.  Which PHP function is used to concatenate two strings?
+           
+            <div class="option" data-question="question9" data-correct="false">
+               A) `join()`
+               
+            </div>
+            <div class="option" data-question="question9" data-correct="true">
+               B) `.` (dot operator)
+            </div>
+            <div class="option" data-question="question9" data-correct="false">
+               C) `concat()`
+            </div>
+            <div class="option" data-question="question9" data-correct="false">
+               D) `merge()`  
+            </div>
+         </div>
+
+         <div class="question" id="question10">
+            10. What does the `strlen()` function in PHP do?
+          
+            <div class="option" data-question="question10" data-correct="false">
+
+               A) Returns the number of elements in an array
+                
+            </div>
+            <div class="option" data-question="question10" data-correct="true">
+               B) Returns the length of a string
+                  
+
+            </div>
+            <div class="option" data-question="question10" data-correct="false">
+
+               C) Checks if a variable is defined
+              
+            </div>
+            <div class="option" data-question="question10" data-correct="false">
+
+               D)  Prints the current date and time
+            </div>
+         </div>
+
+         <div id="correctCount">0</div>
+
+      </div>
+
+
+   </main>
+   <footer>
+      <div id="next">
+         <button type="button" onclick="openNextPage()"> SUBMIT </button>
+
+      </div>
+   </footer>
+
+   <script src="question.js"> </script>
+   <script src="function_Question_Page.js"> </script>
+
+</body>
+
+</html> 

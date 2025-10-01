@@ -1,0 +1,61 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+  border: border-box;
+}
+
+.disability-class {
+  text-align: center;
+  text-decoration: underline;
+}
+
+#disease {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.dis-class {
+  width: 40vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+input[type="radio"] {
+  display: none;
+
+}
+
+label {
+  border: 1px solid #000000;
+  padding: 15px;
+  margin: 10px;
+  position: relative;
+  cursor: pointer;
+
+}
+
+label img {
+  width: 100%;
+  height: 100%;
+  transition-duration: 0.2s linear;
+  transform-origin: 50% 50%;
+  border: 1.5px solid #858585;
+}
+
+.sick {
+  color: black;
+  text-align: center;
+}

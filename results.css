@@ -1,0 +1,52 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.outer_container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#result_container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("result image/result_troffe.jpg");
+    background-size:  cover;
+    color: #4b22dd;
+    
+}
+
+.victory {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    position: absolute;
+    top: 20vw;
+    left: 30vw;
+    font-size: 30px;
+    color: blue;
+    font-weight: 900;
+}
+
+.explanation_btn {
+    width: 105px;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    background-color: #0f0f0f;
+    position: absolute;
+    top: 25vw;
+    left: 45vw;
+}
+
+.explanation_btn:hover {
+    background-color: darkred;
+}
